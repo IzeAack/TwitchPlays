@@ -9,8 +9,8 @@ from TwitchPlays_KeyCodes import *
 ##################### GAME VARIABLES #####################
 
 # Chat controller layout
-EXAMPLE_GTA_V = False
-EXAMPLE_2 = True
+EXAMPLE_GTA_V = True
+EXAMPLE_2 = False
 EXAMPLE_3 = False
 
 # Replace this with your Twitch username. Must be all lowercase.
@@ -179,7 +179,7 @@ def handle_message(message):
             ###################################
             # Example 3
             ###################################
-        elif EXAMPLE_3
+        elif EXAMPLE_3:
             if msg == "left": 
                 HoldAndReleaseKey(A, 2)
     
