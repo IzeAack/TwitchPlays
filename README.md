@@ -2,7 +2,7 @@
 These are the three Python files I use that allows Twitch Chat or Youtube Chat to control your keyboard or mouse to play a game. You are welcome to use or adapt this code for your own content.
 Credit  DougDougGithub#8 and DougDougGithub#4
 To run the code you will need to install Python 3.9.  
-Additionally, you will need to install the python modules using the txt (Credit  [DougDougGithub#8](https://github.com/DougDougGithub/TwitchPlays/pull/8/commits/572244ba8e85fb39f18e23e22a20ebd8971b879c) and [DougDougGithub#8](https://github.com/DougDougGithub/TwitchPlays/pull/4/commits/572244ba8e85fb39f18e23e22a20ebd8971b879c)):  
+Additionally, you will need to install the python modules using the txt (Credit  [DougDougGithub#8](https://github.com/DougDougGithub/TwitchPlays/pull/8/commits/572244ba8e85fb39f18e23e22a20ebd8971b879c) and [DougDougGithub#4](https://github.com/DougDougGithub/TwitchPlays/pull/4/commits/572244ba8e85fb39f18e23e22a20ebd8971b879c)):  
 python -m pip install -r requirements.txt
 
 
