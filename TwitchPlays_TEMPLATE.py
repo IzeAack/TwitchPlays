@@ -5,6 +5,7 @@ import pydirectinput
 import pyautogui
 import TwitchPlays_Connection
 from TwitchPlays_KeyCodes import *
+from TwitchPlays_Settings import TWITCH_CHANNEL, YOUTUBE_CHANNEL_ID, YOUTUBE_STREAM_URL
 
 ##################### GAME VARIABLES #####################
 
@@ -14,7 +15,7 @@ EXAMPLE_2 = False
 EXAMPLE_3 = False
 
 # Replace this with your Twitch username. Must be all lowercase.
-TWITCH_CHANNEL = 'twitch_channel_here' 
+#TWITCH_CHANNEL Can be edited in settings 
 
 # Please enable one of the streaming options
 STREAMING_ON_BOTH = False
@@ -25,11 +26,11 @@ STREAMING_ON_YOUTUBE = False
 
 # If you're streaming on Youtube, replace this with your Youtube's Channel ID
 # Find this by clicking your Youtube profile pic -> Settings -> Advanced Settings
-YOUTUBE_CHANNEL_ID = "youtube_channel_id_here" 
+#YOUTUBE_CHANNEL_ID Can be edited in settings
 
 # If you're using an Unlisted stream to test on Youtube, replace "None" below with your stream's URL in quotes.
 # Otherwise you can leave this as "None"
-YOUTUBE_STREAM_URL = None
+#YOUTUBE_STREAM_URL Can be edited in settings
 
 ##################### MESSAGE QUEUE VARIABLES #####################
 
