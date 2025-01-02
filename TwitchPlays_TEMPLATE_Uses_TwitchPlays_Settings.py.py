@@ -5,7 +5,8 @@ import pydirectinput
 import pyautogui
 import TwitchPlays_Connection
 from TwitchPlays_KeyCodes import *
-from TwitchPlays_Settings import TWITCH_CHANNEL, YOUTUBE_CHANNEL_ID, YOUTUBE_STREAM_URL
+from TwitchPlays_Settings import TWITCH_CHANNEL, YOUTUBE_CHANNEL_ID, YOUTUBE_STREAM_URL, STREAMING_ON_BOTH, STREAMING_ON_TWITCH, STREAMING_ON_YOUTUBE, MESSAGE_RATE, MAX_QUEUE_LENGTH, MAX_WORKERS
+
 
 ##################### GAME VARIABLES #####################
 
@@ -18,11 +19,11 @@ EXAMPLE_3 = False
 #TWITCH_CHANNEL Can be edited in settings 
 
 # Please enable one of the streaming options
-STREAMING_ON_BOTH = False
+#STREAMING_ON_BOTH Can be edited in settings
 
-STREAMING_ON_TWITCH = False
+#STREAMING_ON_TWITCH Can be edited in settings
 
-STREAMING_ON_YOUTUBE = False
+#STREAMING_ON_YOUTUBE Can be edited in settings
 
 # If you're streaming on Youtube, replace this with your Youtube's Channel ID
 # Find this by clicking your Youtube profile pic -> Settings -> Advanced Settings
@@ -39,13 +40,13 @@ STREAMING_ON_YOUTUBE = False
 # A smaller number means we go through the message queue faster, but we will run out of messages faster and activity might "stagnate" while waiting for a new batch. 
 # A higher number means we go through the queue slower, and messages are more evenly spread out, but delay from the viewers' perspective is higher.
 # You can set this to 0 to disable the queue and handle all messages immediately. However, then the wait before another "batch" of messages is more noticeable.
-MESSAGE_RATE = 0.5
+#MESSAGE_RATE Can be edited in settings
 # MAX_QUEUE_LENGTH limits the number of commands that will be processed in a given "batch" of messages. 
 # e.g. if you get a batch of 50 messages, you can choose to only process the first 10 of them and ignore the others.
 # This is helpful for games where too many inputs at once can actually hinder the gameplay.
 # Setting to ~50 is good for total chaos, ~5-10 is good for 2D platformers
-MAX_QUEUE_LENGTH = 20
-MAX_WORKERS = 100 # Maximum number of threads you can process at a time 
+#MAX_QUEUE_LENGTH Can be edited in settings
+#MAX_WORKERS Can be edited in settings Maximum number of threads you can process at a time 
 
 last_time = time.time()
 message_queue = []
